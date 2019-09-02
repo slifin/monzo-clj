@@ -4,11 +4,7 @@
     [org.httpkit.client :as http]
     [cheshire.core :refer :all]))
 
-
-;(def api-url "https://api.getmondo.co.uk")
-(def api-url "https://production-api.gmon.io")
-
-
+(def api-url "https://api.monzo.com")
 
 (def basic-request-options {:user-agent "mondo-clj-lib"
                             :headers {"X-Api-Version" "unknown"}
